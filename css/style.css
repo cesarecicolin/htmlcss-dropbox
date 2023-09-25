@@ -11,7 +11,7 @@ img{
 
 .conteiner{
     width: 60%;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .big-conteiner{
@@ -63,4 +63,34 @@ header{
 .right{
     width:70% ;
     background-color: purple;
+}
+
+.col-2{
+    width: calc(95% / 3);
+    /* Debug */
+    border: 1px solid black;
+    min-height: 500px;
+    background-color: chocolate;
+}
+
+.col-colum{
+    min-height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    width: calc(95% / 2);
+    margin-top: 10px;
+}
+
+.col-img{
+    width: 70%;
+    /* debug */
+    min-height: 500px;
+    background-color: blue;
+}
+.col-text{
+    width: 30%;
+    /* debug */
+    min-height: 500px;
+    background-color: purple;
+
 }
