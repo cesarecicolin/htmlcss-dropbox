@@ -21,10 +21,12 @@ img{
 
 header{
     height: 50px;
-    background-color: aqua;
+    background-color: white;
 }
 
-.hero
+.hero{
+    background-color: lightblue;
+}
 
 /* common */
 .row{
@@ -36,7 +38,29 @@ header{
     display: flex;
 }
 
+.row-hero{
+    display: flex;
+}
+
 .col{
     background-color: green;
 }
 
+.col-hero{
+    /* debug */
+    
+    min-height: 500px;
+   
+    border: 1px solid black;
+}
+
+.left{
+    width: 30%;
+    /* Debug */
+    background-color:red 
+}
+
+.right{
+    width:70% ;
+    background-color: purple;
+}
