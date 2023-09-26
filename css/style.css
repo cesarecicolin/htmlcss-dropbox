@@ -96,6 +96,13 @@ header{
     background-color: #0061ff;
     color: white;
 }
+.button-trasp{
+    padding: 0.6rem;
+    border: 1px solid rgb(4, 4, 4);
+    display: inline-block;
+    
+    
+}
 
 .text-align-initial{
     text-align: initial;
@@ -123,7 +130,10 @@ header{
 }
 
 
-
+.col-colum{  
+   border-top: 1px solid black;   
+    margin-top: 10px;
+}
 
 
 
@@ -149,24 +159,17 @@ header{
    
 }
 
-.col-colum{
-    
-   border-top: 1px solid black;
-    
-    margin-top: 10px;
-}
+
 
 .col-img{
-    width: 70%;
+    width: 67%;
     /* debug */
-    min-height: 500px;
-    background-color: blue;
+   
 }
 .col-text{
     width: 30%;
-    /* debug */
-    min-height: 500px;
-    background-color: purple;
+    
+   
 
 }
 
