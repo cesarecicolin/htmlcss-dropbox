@@ -9,6 +9,57 @@ img{
     max-width: 100%;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    margin-left: 1rem;
+    
+}
+
+
+
+
+.text-align{
+    text-align: center;
+}
+
+.pad{
+    padding: 2rem 0;
+}
+/* margini */
+.margin-card *{
+    margin: .5rem;
+}
+.margin{
+    margin: 2rem;
+}
+.m1{
+    margin: 1rem 0;
+}
+
+/* margini */
+header a{
+    color: black;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* utility */
+
 .conteiner{
     width: 60%;
     margin: 2rem auto;
@@ -18,59 +69,66 @@ img{
     width: 80%;
     margin: 0 auto;
 }
+.row{
+    display: flex;
+    
+}
+.justify-content{
+    justify-content:space-between
+}
 
 header{
     height: 50px;
     background-color: white;
+    
 }
 
 .hero{
     background-color: lightblue;
 }
 
-/* common */
-.row{
-    display: flex;
-    justify-content: space-between;
+.f-size{
+    font-size: 2rem;
+}
+.button{
+    padding: 0.6rem;
+    border: 1px solid blue;
+    background-color: #0061ff;
+    color: white;
 }
 
-.row-col{
-    display: flex;
-}
-
-.row-hero{
-    display: flex;
-}
-
-.col-nav{
-    background-color: green;
-}
-
-.col-hero{
-    /* debug */
-    
-    min-height: 500px;
-   
+/* price section */
+.icon{
     border: 1px solid black;
+    padding: .5rem;
 }
+
+
+
+
+
+
+
+
+
+  
 
 .left{
     width: 30%;
     /* Debug */
-    background-color:red 
+    
 }
 
 .right{
     width:70% ;
-    background-color: purple;
+   
 }
 
 .col-2{
     width: calc(95% / 3);
     /* Debug */
     border: 1px solid black;
-    min-height: 500px;
-    background-color: chocolate;
+   
 }
 
 .col-colum{
@@ -148,5 +206,6 @@ header{
     /* debug */
     border: 1px solid rgb(255, 255, 255);
     height: 500px;
+    background-color: red;
 
 }
