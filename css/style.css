@@ -97,12 +97,30 @@ header{
     color: white;
 }
 
+.text-align-initial{
+    text-align: initial;
+}
+.col-70{
+    width: 70%;
+}
+.col-30{
+    width: 30%;
+    text-align: center;
+}
+.inline-block{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
 /* price section */
 .icon{
     border: 1px solid black;
     padding: .5rem;
 }
 
+.info{
+    border: 1px solid black;
+}
 
 
 
@@ -132,10 +150,9 @@ header{
 }
 
 .col-colum{
-    min-height: 200px;
-    background-color: aqua;
-    border: 1px solid black;
-    width: calc(95% / 2);
+    
+   border-top: 1px solid black;
+    
     margin-top: 10px;
 }
 
