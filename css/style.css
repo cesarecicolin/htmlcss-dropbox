@@ -1,3 +1,4 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
@@ -27,42 +28,23 @@ li{
     
 }
 
+/* utility */
+.conteiner{
+    width: 60%;
+    margin: 0 auto;
+}
 
-
+.section{
+    margin-top: 4rem;
+}
 
 .text-align{
     text-align: center;
 }
 
+
 .pad{
     padding: 2rem 0;
-}
-/* margini */
-.margin-card *{
-    margin: .5rem;
-}
-.margin{
-    margin: 2rem;
-}
-.m1{
-    margin: 1rem 0;
-}
-
-/* margini */
-header a{
-    color: black;
-}
-
-h1{
-    font-size: 4rem;
-    text-align: center;
-}
-
-/* utility */
-
-.conteiner{
-    width: 60%;
-    margin: 2rem auto;
 }
 
 .big-conteiner{
@@ -77,16 +59,6 @@ h1{
     justify-content:space-between
 }
 
-header{
-    height: 50px;
-    background-color: white;
-    
-}
-
-.hero{
-    background-color: lightblue;
-}
-
 .f-size{
     font-size: 2rem;
 }
@@ -95,7 +67,49 @@ header{
     border: 1px solid blue;
     background-color: #0061ff;
     color: white;
+    display: inline-block;
 }
+.inline-block{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+/* margini */
+.margin-card *{
+    margin: .5rem;
+}
+.margin{
+    margin: 2rem;
+}
+.m1{
+    margin: 1rem 0;
+}
+
+/* header */
+header a{
+    color: black;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+header{
+    height: 50px;
+    background-color: white;
+    
+}
+
+
+
+
+/* main */
+
+.hero{
+    background-color: lightblue;
+}
+
+
 .button-trasp{
     padding: 0.6rem;
     border: 1px solid rgb(4, 4, 4);
@@ -114,10 +128,7 @@ header{
     width: 30%;
     text-align: center;
 }
-.inline-block{
-    display: inline-block;
-    margin-top: 1rem;
-}
+
 
 /* price section */
 .icon{
@@ -143,7 +154,7 @@ header{
 
 .left{
     width: 30%;
-    /* Debug */
+    
     
 }
 
@@ -177,8 +188,7 @@ header{
     width: calc(95% / 3);
     margin-top: 1rem;
     /* debug */
-    min-height: 400px;
-    border: 1px solid black;
+   
 }
 
 .wrap{
@@ -198,6 +208,7 @@ header{
 .col-big{
     width: calc(100% / 3);
     margin-top: 1rem;
+    flex-wrap: wrap;
     /* debug */
     min-height: 400px;
     border: 1px solid black;
@@ -209,6 +220,7 @@ header{
 }
 .bk-azzure{
     background-color: aqua;
+    min-height: 500px;
 }
 .col-large{
     width: 100%;
@@ -228,4 +240,11 @@ header{
     height: 500px;
     background-color: red;
 
+}
+/* sponsor section */
+.sqaure{
+    width: calc(100% / 2);
+    /* debug */
+    border: 1px solid black;
+    min-height: 50px;
 }
