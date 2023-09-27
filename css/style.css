@@ -278,12 +278,19 @@ nav li:hover{
     color: #61082b;
 }
 
+.none{
+    display: none;
+    padding: 20px;
+}
+ p:hover + .none{
+    display: block;
+    width: 50%;
+}
 
 
 .divider{
-    margin: 2rem 0;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    
+   
     padding: 2rem 0;
 }
 .ml-10{
@@ -309,3 +316,5 @@ footer a {
 .hr-white{
     color: white;
 }
+
+
